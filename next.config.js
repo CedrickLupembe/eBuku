@@ -5,4 +5,8 @@ const nextConfig = {
   swcMinify: true,
 };
 
+module.exports = {
+  distDir: "build",
+};
+
 module.exports = nextConfig;
